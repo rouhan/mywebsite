@@ -142,7 +142,7 @@ jQuery(document).ready(function(){
 		if ( tab.hasClass($tabContactClass) ) {
 			$map.gMap({
 				address: $address,
-				zoom: 16,
+				zoom: 15,
 				markers: [
 					{ 'address' : $address }
 				]
